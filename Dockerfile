@@ -8,3 +8,4 @@ RUN apt-get install -y git
 
 RUN touch test.txt && echo "Hello Docker" >> abc.txt
 
+VOLUME /var/lib/postgresql
